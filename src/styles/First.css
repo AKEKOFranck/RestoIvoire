@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.first_main{
+    width: 100%;
+    height: 700px;
+    background-image: url('../assests/fond1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+@media (max-width:1200px) {
+     .first_main {
+       background-position: center;
+     }
+       
+}
