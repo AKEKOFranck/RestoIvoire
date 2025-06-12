@@ -36,11 +36,11 @@
 }
 
 
-// ... existing code ...
 
-/* Media Queries pour le Footer */
 
-/* Grands écrans (1200px et plus) */
+
+
+
 @media screen and (min-width: 1200px) {
     .foot_main {
         height: 450px;
@@ -60,7 +60,7 @@
     }
 }
 
-/* Tablettes (768px à 1199px) */
+
 @media screen and (max-width: 1199px) {
     .foot_main {
         height: auto;
@@ -83,7 +83,7 @@
     }
 }
 
-/* Tablettes en mode portrait (768px et moins) */
+
 @media screen and (max-width: 768px) {
     .foot_main {
         padding: 30px 2%;
@@ -101,7 +101,7 @@
     }
 }
 
-/* Mobiles (480px et moins) */
+
 @media screen and (max-width: 480px) {
     .foot_main {
         padding: 20px 1%;

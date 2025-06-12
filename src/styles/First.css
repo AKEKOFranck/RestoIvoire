@@ -15,11 +15,11 @@
     background-attachment: fixed;
     
 }
-// ... existing code ...
 
-/* Media Queries pour First */
 
-/* Grands écrans (1200px et plus) */
+
+
+
 @media screen and (min-width: 1200px) {
     .first_main {
         height: 800px;
@@ -27,7 +27,7 @@
     }
 }
 
-/* Tablettes (768px à 1199px) */
+
 @media screen and (max-width: 1199px) {
     .first_main {
         height: 600px;
@@ -36,7 +36,7 @@
     }
 }
 
-/* Tablettes en mode portrait (768px et moins) */
+
 @media screen and (max-width: 768px) {
     .first_main {
         height: 500px;
@@ -45,7 +45,7 @@
     }
 }
 
-/* Mobiles (480px et moins) */
+
 @media screen and (max-width: 480px) {
     .first_main {
         height: 400px;

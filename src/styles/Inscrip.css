@@ -16,164 +16,67 @@
     background-attachment: fixed;
 }
 
-
 .content_form {
-            border: 2px solid #C45E38; /* Rouge brique comme des tomates */
-            background-color: #FFF5E6; /* Fond légèrement doré comme une croûte de pain */
-            display: flex;
-            flex-direction: column;
-            width: 300px;
-            height: 400px;
-            margin: auto;
-            position: relative;
-            top: 50px;
-            justify-content: space-between;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-       
-        
-        .content_input {
-            width: 90%;
-            margin: 10px auto;
-            height: 35px;
-            border-radius: 8px;
-            border: 2px solid #D2B48C; /* Beige comme de la cannelle */
-            background-color: #FFFDF8; /* Blanc cassé comme de la farine */
-            padding: 0 10px;
-            font-size: 14px;
-            transition: all 0.3s ease;
-            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-        }
-        
-        .content_input:focus {
-            outline: none;
-            border-color: #B47846; /* Brun comme du sucre roux */
-            box-shadow: 0 0 5px rgba(180, 120, 70, 0.5);
-            color: #5C3317; /* Brun foncé comme du café */
-        }
-        
-        .content_button {
-            width: 60%;
-            height: 40px;
-            margin: 20px auto;
-            background-color: #A52A2A; /* Brun-rouge comme de la sauce tomate */
-            color: white;
-            border: none;
-            border-radius: 20px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 16px;
-        }
-        
-        .content_button:hover {
-            background-color: #8B2323; /* Rouge plus foncé comme du paprika */
-            opacity: 0.9;
-            transform: scale(1.05);
-        }
-        
-        label {
-            color: #5C3317; /* Brun foncé comme du chocolat noir */
-            margin-left: 15px;
-            font-size: 14px;
-        }
-
-       
-
-        // ... existing code ...
-
-/* Media Queries pour Inscrip */
-
-/* Grands écrans (1200px et plus) */
-@media screen and (min-width: 1200px) {
-    .content_main {
-        height: 700px;
-    }
-    
-    .content_form {
-        width: 350px;
-        height: 450px;
-        padding: 25px;
-    }
-    
-    .content_input {
-        height: 40px;
-        font-size: 16px;
-    }
-    
-    .content_button {
-        height: 45px;
-        font-size: 18px;
-    }
-    
-    label {
-        font-size: 16px;
-    }
+    border: 2px solid #C45E38;
+    background-color: #FFF5E6; 
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Tablettes (768px à 1199px) */
-@media screen and (max-width: 1199px) {
-    .content_main {
-        height: auto;
-        min-height: 600px;
-        background-attachment: scroll;
-    }
-    
-    .content_form {
-        width: 320px;
-        height: 420px;
-        padding: 20px;
-        margin: 40px auto;
-    }
-    
-    .content_input {
-        height: 38px;
-        font-size: 15px;
-    }
-    
-    .content_button {
-        height: 42px;
-        font-size: 17px;
-    }
-    
-    label {
-        font-size: 15px;
-    }
+.content_input {
+    width: 90%;
+    margin: 10px auto;
+    height: 35px;
+    border-radius: 8px;
+    border: 2px solid #D2B48C; 
+    background-color: #FFFDF8; 
+    padding: 0 10px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Tablettes en mode portrait (768px et moins) */
-@media screen and (max-width: 768px) {
-    .content_main {
-        min-height: 550px;
-    }
-    
-    .content_form {
-        width: 300px;
-        height: 400px;
-        padding: 15px;
-        margin: 30px auto;
-    }
-    
-    .content_input {
-        height: 35px;
-        font-size: 14px;
-    }
-    
-    .content_button {
-        height: 40px;
-        font-size: 16px;
-        width: 70%;
-    }
-    
-    label {
-        font-size: 14px;
-        margin-left: 10px;
-    }
+.content_input:focus {
+    outline: none;
+    border-color: #B47846; 
+    box-shadow: 0 0 5px rgba(180, 120, 70, 0.5);
+    color: #5C3317; 
 }
 
-/* Mobiles (480px et moins) */
+.content_button {
+    width: 60%;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #A52A2A; 
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.content_button:hover {
+    background-color: #8B2323; 
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+label {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
 @media screen and (max-width: 480px) {
     .content_main {
         min-height: 500px;

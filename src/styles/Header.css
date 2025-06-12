@@ -42,11 +42,9 @@ nav {
 }
 
 
-// ... existing code ...
 
-/* Media Queries pour le Header */
 
-/* Grands écrans (1200px et plus) */
+
 @media screen and (min-width: 1200px) {
     nav {
         width: 40%;
@@ -61,7 +59,7 @@ nav {
     }
 }
 
-/* Tablettes (768px à 1199px) */
+
 @media screen and (max-width: 1199px) {
     .head {
         height: 80px;
@@ -101,7 +99,7 @@ nav {
     }
 }
 
-/* Mobiles (480px et moins) */
+
 @media screen and (max-width: 480px) {
     .head {
         height: 70px;

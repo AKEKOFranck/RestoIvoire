@@ -45,11 +45,8 @@
 
 
 
-// ... existing code ...
 
-/* Media Queries pour Third */
 
-/* Grands écrans (1200px et plus) */
 @media screen and (min-width: 1200px) {
     .third_main {
         height: 450px;
@@ -69,7 +66,7 @@
     }
 }
 
-/* Tablettes (768px à 1199px) */
+
 @media screen and (max-width: 1199px) {
     .third_main {
         height: auto;
@@ -95,7 +92,7 @@
     }
 }
 
-/* Tablettes en mode portrait (768px et moins) */
+
 @media screen and (max-width: 768px) {
     .third_main {
         min-height: 300px;
@@ -121,7 +118,7 @@
     }
 }
 
-/* Mobiles (480px et moins) */
+
 @media screen and (max-width: 480px) {
     .third_main {
         min-height: 250px;

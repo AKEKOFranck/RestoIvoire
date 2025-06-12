@@ -62,11 +62,8 @@ h2{
 
 
 
-// ... existing code ...
 
-/* Media Queries pour Second */
 
-/* Grands écrans (1200px et plus) */
 @media screen and (min-width: 1200px) {
     .second_main {
         height: 1100px;
@@ -87,7 +84,7 @@ h2{
     }
 }
 
-/* Tablettes (768px à 1199px) */
+
 @media screen and (max-width: 1199px) {
     .second_main {
         height: auto;
@@ -111,7 +108,7 @@ h2{
     }
 }
 
-/* Tablettes en mode portrait (768px et moins) */
+
 @media screen and (max-width: 768px) {
     .second_main {
         min-height: 800px;
@@ -142,7 +139,7 @@ h2{
     }
 }
 
-/* Mobiles (480px et moins) */
+
 @media screen and (max-width: 480px) {
     .second_main {
         min-height: 700px;
