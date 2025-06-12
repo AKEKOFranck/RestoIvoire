@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+/* Media Queries pour différentes tailles d'écran */
+
+/* Tablettes (768px et moins) */
+@media screen and (max-width: 768px) {
+  .App-header {
+    font-size: calc(8px + 1.5vmin);
+    min-height: 80vh;
+  }
+  
+  .App-logo {
+    height: 30vmin;
+  }
+}
+
+/* Mobiles (480px et moins) */
+@media screen and (max-width: 480px) {
+  .App-header {
+    font-size: calc(6px + 1vmin);
+    min-height: 60vh;
+  }
+  
+  .App-logo {
+    height: 25vmin;
+  }
+}
+
+/* Grands écrans (1200px et plus) */
+@media screen and (min-width: 1200px) {
+  .App-header {
+    font-size: calc(12px + 2.5vmin);
+  }
+  
+  .App-logo {
+    height: 45vmin;
+  }
+}

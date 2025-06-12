@@ -62,76 +62,114 @@ h2{
 
 
 
+// ... existing code ...
 
-@media (max-width: 430px) and (max-height: 932px) {
-   .second_main{
-    flex-direction: column;
-    width: 100%;
-   position: relative;
-   gap: 70px;
-   height: 800px;
+/* Media Queries pour Second */
+
+/* Grands écrans (1200px et plus) */
+@media screen and (min-width: 1200px) {
+    .second_main {
+        height: 1100px;
+        padding: 40px 0;
+    }
     
-   }
-
-   .second_box{
-    width: 100%;
-    align-items: center;
-    height: 100%;
-    flex-direction: column;
-    position: relative;
-    gap: 60px;
-    top: 90px;
+    .second_box {
+        gap: 50px;
+    }
     
-   }
-
-   .second_content{
-    width: 100%;
-    height: 500px;
-    border-radius: 15px;
-    border: none;
-   }
-
-   .second_text{
-    font-size: 1rem;
-   }
-
-   ul li{
-    padding-top: 15px;
-   }
-}
-@media (max-width: 1024px) and (max-height: 1366px) {
-   .second_main {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 600px;
-      align-items: center;
-       position: relative;
-      gap: 200px;
-   }
-
-   .second_box {
-      display: flex;
-      flex-direction: column;
-      width: 60%;
-      height: 100%;
-      margin: auto;
-      position: relative;
-      gap: 70px;
-      top: 150px;
-   }
-
-   .second_content {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      border: none;
-   }
-
-   
-   ul li{
-    padding-top: 10px;
-   }
+    .second_content {
+        width: 35%;
+        transition: transform 0.3s ease;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
 }
 
+/* Tablettes (768px à 1199px) */
+@media screen and (max-width: 1199px) {
+    .second_main {
+        height: auto;
+        min-height: 900px;
+        padding: 30px 0;
+    }
+    
+    .second_box {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 0 20px;
+    }
+    
+    .second_content {
+        width: 45%;
+        min-width: 300px;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+}
 
+/* Tablettes en mode portrait (768px et moins) */
+@media screen and (max-width: 768px) {
+    .second_main {
+        min-height: 800px;
+        padding: 20px 0;
+    }
+    
+    .second_box {
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+        padding: 0 15px;
+    }
+    
+    .second_content {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        min-height: 250px;
+        padding: 20px;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    .second_text {
+        font-size: 1.1rem;
+    }
+}
+
+/* Mobiles (480px et moins) */
+@media screen and (max-width: 480px) {
+    .second_main {
+        min-height: 700px;
+        padding: 15px 0;
+    }
+    
+    .second_box {
+        gap: 30px;
+        padding: 0 10px;
+    }
+    
+    .second_content {
+        min-height: 200px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+    
+    .second_text {
+        font-size: 1rem;
+    }
+    
+    ul li {
+        padding-top: 12px;
+        font-size: 0.9rem;
+    }
+}

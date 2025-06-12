@@ -15,11 +15,41 @@
     background-attachment: fixed;
     
 }
+// ... existing code ...
 
+/* Media Queries pour First */
 
-@media (max-width:1200px) {
-     .first_main {
-       background-position: center;
-     }
-       
+/* Grands écrans (1200px et plus) */
+@media screen and (min-width: 1200px) {
+    .first_main {
+        height: 800px;
+        background-position: center;
+    }
+}
+
+/* Tablettes (768px à 1199px) */
+@media screen and (max-width: 1199px) {
+    .first_main {
+        height: 600px;
+        background-position: center;
+        background-attachment: scroll;
+    }
+}
+
+/* Tablettes en mode portrait (768px et moins) */
+@media screen and (max-width: 768px) {
+    .first_main {
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* Mobiles (480px et moins) */
+@media screen and (max-width: 480px) {
+    .first_main {
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
 }
